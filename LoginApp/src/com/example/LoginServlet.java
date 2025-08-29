@@ -14,9 +14,9 @@ public class LoginServlet extends HttpServlet {
         String pass = request.getParameter("password");
 
         // RDS DB details
-        String jdbcURL = "jdbc:mysql://database-1.cn0y8wu84b0d.us-east-2.rds.amazonaws.com:3306/userdb";
-        String dbUser = "admin";
-        String dbPass = "MONEY123";
+        String jdbcURL = "";
+        String dbUser = "";
+        String dbPass = "";
 
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
